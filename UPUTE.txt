@@ -1,0 +1,11 @@
+BELA BLOK - Privatna iPhone verzija 1.0
+
+1) Za brz pregled na računalu otvori index.html u pregledniku.
+2) Za pouzdan rad na iPhoneu kao instalirana offline aplikacija postavi sve datoteke iz ove mape na HTTPS web hosting (npr. GitHub Pages ili Netlify).
+3) Na iPhoneu otvori HTTPS adresu u SAFARIJU, dodirni Dijeli -> Dodaj na početni zaslon. Nakon prvog otvaranja aplikacija može raditi bez interneta.
+4) Igra: unosi se rezultat MI ili VI, drugi se izračunava kao 162 minus uneseni broj. Za ručni pad: nakon unosa jedne ekipe odaberi polje druge i upiši vrijednost; aplikacija dopušta ručnu prilagodbu rezultata.
+5) Zvanje: prebaci na ZVANJE, odaberi ekipu, upiši bilo koji iznos. Ponovi za drugu ekipu ako treba.
+6) Završi rundu -> prikazuje se popis. Nova igra -> novi unos. Nakon prelaska 1001 (podesivo) završava partija i prikazuje MI x VI y.
+7) Postavke -> Izvezi sigurnosnu kopiju: sačuvaj JSON u Datoteke (Files) radi zaštite od brisanja Safari podataka. Možeš ga i vratiti.
+
+Napomena: nije izvorna aplikacija autora Jakova Benjaka. Ovo je samostalno izrađena inspirirana verzija za privatno korištenje. Datoteka otvorena iz Files ili file:// ne omogućuje iOS PWA instalaciju / service worker; za to je nužan HTTPS hosting. PWA na iOS-u ima odvojenu pohranu od Safarija; zato instaliraj prije upisa važnih podataka.
